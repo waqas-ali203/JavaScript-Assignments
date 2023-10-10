@@ -1,32 +1,32 @@
 //  **************   SWAP IMAGE    ********//////
 
-// function ChangeImage(id){
-//     document.getElementById(id).src = "https://p1.pxfuel.com/preview/653/702/399/rose-flower-flowers-red-rose-royalty-free-thumbnail.jpg"
-// }
-// function ChangeImageleave(id){
-//     document.getElementById(id).src = "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg"
-// }
+function ChangeImage(id){
+    document.getElementById(id).src = "https://p1.pxfuel.com/preview/653/702/399/rose-flower-flowers-red-rose-royalty-free-thumbnail.jpg"
+}
+function ChangeImageleave(id){
+    document.getElementById(id).src = "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg"
+}
 
-// function ChangeColorParagraph(){
-//     var Maindiv = document.getElementById('maindiv')
-//     var paragraph = Maindiv.getElementsByTagName('p')
+function ChangeColorParagraph(){
+    var Maindiv = document.getElementById('maindiv')
+    var paragraph = Maindiv.getElementsByTagName('p')
 
-//     for(var i=0; i < paragraph.length ; i++){
-//         paragraph[i].style.color= 'green'
-//     }
-// }
+    for(var i=0; i < paragraph.length ; i++){
+        paragraph[i].style.color= 'green'
+    }
+}
 
 
-// function mypic(id){
+function mypic(id){
     
-//     document.getElementById("change-image").style.border = "2px solid red";
-//     document.getElementById("change-image").style.borderRadius = "40px";
-// }
-// function mypicleave(id){
+    document.getElementById("change-image").style.border = "2px solid red";
+    document.getElementById("change-image").style.borderRadius = "40px";
+}
+function mypicleave(id){
     
-//     document.getElementById("change-image").style.border = "0px";
-//     document.getElementById("change-image").style.borderRadius = "0px";
-// }
+    document.getElementById("change-image").style.border = "0px";
+    document.getElementById("change-image").style.borderRadius = "0px";
+}
 
 
 
